@@ -8,7 +8,7 @@ pipeline {
             echo 'Building DEV....'
         }
     }
-    stage('Test DEV') {
+    stage('Test New DEV') {
         steps {
             echo 'Testinh....'
             sh 'mkdir -p test'
