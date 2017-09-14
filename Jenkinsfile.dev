@@ -5,12 +5,12 @@ pipeline {
    stages {
        stage('Build DEV') {
         steps {
-            echo 'Building DEV..'
+            echo 'Building DEV....'
         }
     }
     stage('Test DEV') {
         steps {
-            echo 'Testinh..'
+            echo 'Testinh....'
             sh 'mkdir -p test'
          }
     }
